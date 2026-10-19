@@ -79,6 +79,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .mini-projects article { display: grid; grid-template-columns: 58px 1fr auto; align-items: center; gap: 18px; padding: 22px 0; border-bottom: 1px solid var(--line); }
 .mini-projects article > span:first-child, .mini-arrow { color: var(--muted); font: .72rem var(--mono); }
 .mini-projects h3 { margin: 0 0 4px; font: 500 1.2rem var(--display); }
+.mini-projects a { text-decoration: none; }
+.mini-projects h3 a { color: inherit; }
+.mini-projects a:hover { color: var(--accent); }
 .mini-projects p { margin: 0; color: var(--muted); font-size: .9rem; }
 .mini-arrow { color: var(--accent); font-size: 1rem; }
 .skills { border-top: 1px solid var(--line); }
