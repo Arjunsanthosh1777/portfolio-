@@ -70,9 +70,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .project-visual.flow-item img { transform: translateY(22px) scale(1.045); }
 .project-visual.flow-item.flow-in img { transform: none; }
 .project-visual.flow-item.flow-in:hover img { transform: scale(1.035); }
-.project-mello .project-visual { background: #24202c; }
-.project-mello .project-index { color: #c1a7ff; }
-.project-mello .project-link span { color: #c1a7ff; }
 .more-work { margin-top: clamp(80px, 12vw, 150px); }
 .more-work > .eyebrow { margin-bottom: 22px; }
 .mini-projects { border-top: 1px solid var(--line); }
